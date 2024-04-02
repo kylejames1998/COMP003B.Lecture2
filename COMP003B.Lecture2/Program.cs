@@ -19,7 +19,12 @@ namespace COMP003B.Lecture2
                 app.UseHsts();
             }
 
-            // Welcome page at /Welcome
+            // Welcome page at /Welcome 
+            //
+            //
+            //
+            //
+            //
             app.UseWelcomePage("/Welcome");
             // added HTTP error code middleware
             app.UseStatusCodePages();
